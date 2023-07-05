@@ -42,6 +42,8 @@ test_mse:0.01029254884405355:HL_value:3.405847765587141,p_val:0.90637270155496
 ##### HL loss #####
 test_mse:0.008824820592601616:HL_value:2.3470520313693157,p_val:0.9684819412680448
 
+## Step
+
 __Step 1: Data Processing__
 python data_prepare.py
 
@@ -51,5 +53,5 @@ python main.py
 __Step 3: partial result figures__
 python Figures.py
 
-__Citation__
+## __Citation__
 To be added...
