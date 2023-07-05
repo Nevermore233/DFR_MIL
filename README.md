@@ -2,16 +2,14 @@
 
 ## __Package Dependency__
 
-<div style="background-color: #f2f2f2; padding: 10px;">
-这是带有灰色底的文本。</div>
-pandas: 1.4.2
-numpy: 1.21.5
-scipy 1.7.3
-scikit-learn 1.0.2
+pandas: 1.4.2 
+numpy: 1.21.5 
+scipy 1.7.3 
+scikit-learn 1.0.2 
 
-The results of the paper(main.py)：
+## __The results of the paper(main.py)：__
 
-## __MIL_600__
+# MIL_600
 ##### huber loss #####
 test_mse:0.012375668651331453:HL_value:3.2043839186779497,p_val:0.9208841097252112
 
@@ -28,7 +26,7 @@ test_mse:0.012810445133380517:HL_value:3.2619799443407755,p_val:0.91685759826278
 ##### HL loss #####
 test_mse:0.007901406177062672:HL_value:0.6838749245365412,p_val:0.9995660250678401
 
-## __MIL_1000__
+# MIL_1000
 ##### huber loss #####
 test_mse:0.009579452707887074:HL_value:2.955468432137594,p_val:0.9371209527780583
 
@@ -46,14 +44,14 @@ test_mse:0.008824820592601616:HL_value:2.3470520313693157,p_val:0.96848194126804
 
 ## Step
 
-__Step 1: Data Processing__
+__Step 1: Data Processing__ 
 python data_prepare.py
 
-__Step 2: run the code__
+__Step 2: run the code__ 
 python main.py
 
-__Step 3: partial result figures__
+__Step 3: partial result figures__ 
 python Figures.py
 
-## __Citation__
+## __Citation__ 
 To be added...
