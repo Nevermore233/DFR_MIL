@@ -1,6 +1,9 @@
 # __DFR-MIL: an effectiveness-driven and statistically interpretable framework for predicting drug failure risk with the ability to determine optimal positive threshold__
 
 ## __Package Dependency__
+
+<div style="background-color: #f2f2f2; padding: 10px;">
+这是带有灰色底的文本。</div>
 pandas: 1.4.2
 numpy: 1.21.5
 scipy 1.7.3
